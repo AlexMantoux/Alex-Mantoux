@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-xUA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+    <title>Alex Mantoux</title>
+</head>
+<body>
+    <div id="screen1">
+        <div id="maintitle">
+            <svg width="292" height="113" viewBox="0 0 292 113" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                <path class="animtitle" d="M17.9773 109.5H19.0365L19.3909 108.502L49.6818 23.1723L79.9728 108.502L80.3271 109.5H81.3864H94.6818H96.8305L96.0899 107.483L76.8626 55.1193L57.6354 2.75571L57.2744 1.77274H56.2273H43.1364H42.0892L41.7283 2.75571L22.501 55.1193L3.27375 107.483L2.53312 109.5H4.68182H17.9773ZM122.926 3.27274V1.77274H121.426H109.358H107.858V3.27274V108V109.5H109.358H121.426H122.926V108V3.27274ZM156.087 105.901L156.096 105.906C161.859 109.414 168.668 111.136 176.462 111.136C181.934 111.136 186.91 110.294 191.369 108.582L191.378 108.578C195.817 106.838 199.581 104.409 202.643 101.276L202.648 101.269C205.708 98.1019 207.892 94.4204 209.19 90.2401L209.647 88.7679L208.162 88.3513L196.503 85.0786L195.177 84.7063L194.694 85.996C193.74 88.5386 192.406 90.6292 190.705 92.3001C188.995 93.9468 186.952 95.1986 184.556 96.0507C182.183 96.8724 179.49 97.2955 176.462 97.2955C171.812 97.2955 167.8 96.29 164.379 94.3272C160.969 92.3371 158.283 89.4438 156.325 85.5939C154.768 82.4525 153.821 78.7044 153.52 74.3182H208.984H210.484V72.8182V67.7046C210.484 60.2526 209.498 53.8856 207.468 48.6509C205.46 43.4719 202.738 39.2452 199.269 36.0284C195.852 32.8254 192.041 30.4944 187.839 29.0579C183.699 27.6425 179.495 26.9318 175.234 26.9318C167.887 26.9318 161.391 28.7371 155.801 32.3916C150.268 35.9973 145.968 41.023 142.894 47.4184L142.892 47.4215C139.848 53.7935 138.348 61.1123 138.348 69.3409C138.348 77.5691 139.848 84.8565 142.895 91.1639L142.9 91.173C145.983 97.4472 150.381 102.37 156.087 105.901ZM195.175 60.8864H153.619C153.974 58.0259 154.792 55.3072 156.073 52.7228C157.833 49.1697 160.337 46.3007 163.598 44.0947L163.6 44.0929C166.831 41.8973 170.687 40.7727 175.234 40.7727C179.36 40.7727 182.858 41.7207 185.789 43.5603L185.795 43.564C188.793 45.426 191.094 47.9593 192.711 51.1936L192.716 51.204C194.169 54.0545 194.997 57.274 195.175 60.8864ZM235.527 28.6962L235.093 27.9546H234.233H220.324H217.594L219.058 30.259L243.501 68.7273L219.058 107.196L217.594 109.5H220.324H234.233H235.07L235.509 108.788L253.051 80.3779L270.593 108.788L271.033 109.5H271.869H285.778H288.533L287.038 107.186L262.2 68.7273L287.038 30.2683L288.533 27.9546H285.778H271.869H271.01L270.575 28.6962L253.051 58.6013L235.527 28.6962Z" stroke="black" stroke-width="3"/>
+            </svg>
+        </div>
+    </div>
+    <div id="screen2">
+        <div>
+            <h1 id="staticNameAnim"><span id="movWordsAnim"></span></h1>
+        </div>
+    </div>
+    <div id="screen3">
+        <div class="mylife" data-aos="fade-right" data-aos-once="true">
+            <p>Heyy guys👋, I'm <span class="monprenom">Alex Mantoux</span> a passionate developer.</p>
+        </div>
+    </div>
+    <div id="screen4">
+        <div class="menu" data-aos="fade-right" data-aos-once="true">&ltlook my <a href="https://github.com/">Github</a>/&gt</div>
+    </div>
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script type="text/javascript">
+        var element = document.querySelector('.body');
+        setTimeout(function(){
+            $("#screen1").fadeOut("1000"); 
+            element.classList.add(".bodyV2");
+        },3600);
+    </script>
+</html>
+
+
+
+
+
+

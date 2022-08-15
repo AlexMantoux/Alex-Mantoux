@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+a {
+  color: #611585;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #7F12B2;
+}
+
+#screen1 {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#screen2 {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #7F12B2;
+  color: white;
+  font-size: 144px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#screen3 {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  color: #7F12B2;
+  font-size: 112px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#screen4 {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #7F12B2;
+  color: white;
+  font-size: 144px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.animtitle {
+  stroke-dasharray: 1585.696044921875px;
+  stroke-dashoffset: 1585.696044921875px;
+  -webkit-animation: anim 11s ease forwards;
+          animation: anim 11s ease forwards;
+}
+
+#maintitle > svg {
+  -webkit-animation: fill 1s ease forwards 2s;
+          animation: fill 1s ease forwards 2s;
+}
+
+@-webkit-keyframes anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes fill {
+  to {
+    fill: black;
+  }
+}
+
+@keyframes fill {
+  to {
+    fill: black;
+  }
+}
+
+.bodyV2 {
+  overflow-y: hidden;
+  background-color: red;
+}
+
+.me {
+  position: relative;
+}
+
+.my {
+  height: 500px;
+  width: 500px;
+  background-color: #611585;
+  border-radius: 500000px;
+  position: absolute;
+  top: 0;
+}
+
+#staticNameAnim {
+  font-size: 144px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+#staticNameAnim span::before {
+  will-change: contents;
+  position: relative;
+  content: "<Hello world/>";
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: content 2s ease;
+  transition: content 2s ease;
+  -webkit-animation: wordChange 7s ease forwards 5s;
+          animation: wordChange 7s ease forwards 5s;
+}
+
+@-webkit-keyframes wordChange {
+  25% {
+    content: "I'm a";
+  }
+  50% {
+    content: "UX and UI";
+  }
+  75% {
+    content: " developer,";
+  }
+  100% {
+    content: 'Enjoy!';
+  }
+}
+
+@keyframes wordChange {
+  25% {
+    content: "I'm a";
+  }
+  50% {
+    content: "UX and UI";
+  }
+  75% {
+    content: " developer,";
+  }
+  100% {
+    content: 'Enjoy!';
+  }
+}
+
+.imgAlex {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.imgAlex > img {
+  width: 100%;
+  height: 100%;
+}
+
+.monprenom {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
